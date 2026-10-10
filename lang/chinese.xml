@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<LocalizedText>
+        <!-- 中文翻译：oremia； -->
+        <!-- BBG 7.5.1 Live -->
+        <!-- 2026年9月25日 22:45（UTC+8）-->
         <Replace Tag="LOC_TRAIT_CIVILIZATION_FOUNDING_FATHERS_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
             <Text>所有外交政策槽位转为通配符槽位。[ICON_Government] 政体中每个通配符槽位提供+1 [ICON_FAVOR] 外交支持。[NEWLINE][NEWLINE][ICON_BULLET]出生地关联：T4平原山脉与草原山脉。</Text>
         </Replace>
@@ -106,7 +109,16 @@
             <Text>解放城市后，所有城市10 [ICON_TURN] 回合内+50% [ICON_Production] 生产力。</Text>
         </Replace>
         <Replace Tag="LOC_UNIT_DIGGER_DESCRIPTION" Language="zh_Hans_CN">
-            <Text>澳大利亚现代特色近战单位，替代步兵。基础 [ICON_STRENGTH] 战斗力+3。在海岸单元格作战时+5 [ICON_STRENGTH] 战斗力。在中立或外国领土作战时+3 [ICON_STRENGTH] 战斗力。</Text>
+            <Text>澳大利亚现代特色近战单位，替代步兵。基础 [ICON_STRENGTH] 战斗力+3。在海岸单元格作战时+5 [ICON_STRENGTH] 战斗力，在中立或外国领土作战时+3 [ICON_STRENGTH] 战斗力。</Text>
+        </Replace>
+        <Replace Tag="LOC_ABILITY_DIGGER_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>在海岸单元格作战时+5 [ICON_STRENGTH] 战斗力，在中立或外国领土作战时+3 [ICON_STRENGTH] 战斗力。</Text>
+        </Replace>
+        <Replace Tag="LOC_ABILITY_DIGGER_BONUS_ON_COAST_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>位于海岸单元格+5 [ICON_STRENGTH] 战斗力</Text>
+        </Replace>
+        <Replace Tag="LOC_ABILITY_DIGGER_NON_DOMESTIC_BONUS_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>位于中立或外国领土+3 [ICON_STRENGTH] 战斗力</Text>
         </Replace>
         <Replace Tag="LOC_IMPROVEMENT_OUTBACK_STATION_DESCRIPTION" Language="zh_Hans_CN">
             <Text>澳大利亚特色改良设施，解锁于“公会”市政。[NEWLINE][NEWLINE]+1 [ICON_FOOD] 食物、+1 [ICON_PRODUCTION] 生产力和+0.5 [ICON_Housing] 住房。[NEWLINE]每相邻1个牧场则+1 [ICON_FOOD] 食物。[NEWLINE]“紧急部署”市政后，每相邻2个内陆牧场+1 [ICON_FOOD] 食物。[NEWLINE]“工业化”科技后，每相邻2个内陆牧场+1 [ICON_PRODUCTION] 生产力。[NEWLINE][NEWLINE]“工业化”科技后，牧场每相邻1个内陆牧场+1 [ICON_PRODUCTION] 生产力。[NEWLINE]为相邻单元格提供+1魅力。[NEWLINE][NEWLINE]只能在平原、平原丘陵、草原、草原丘陵、沙漠和沙漠丘陵上建造。</Text>
@@ -134,7 +146,7 @@
 			<Text>位于友方领土3格范围内时+5 [ICON_STRENGTH] 战斗力。</Text>
 		</Replace>
         <Replace Tag="LOC_MODIFIER_MER_GRENZER_NEAR_TERRITORY_DESC" Language="zh_Hans_CN">
-			<Text>+5 [ICON_STRENGTH] 战斗力(边防军)</Text>
+			<Text>位于友方领土3格范围内+5 [ICON_STRENGTH] 战斗力</Text>
 		</Replace>
         <Replace Tag="LOC_UNIT_GREAT_DIPLOMAT_NAME" Language="zh_Hans_CN">
             <Text>大外交官</Text>
@@ -158,11 +170,17 @@
         <Replace Tag="LOC_TRAIT_LEADER_GIFTS_FOR_TLATOANI_DESCRIPTION" Language="zh_Hans_CN">
             <Text>领地内每种已改良的奢侈品资源可为额外2个城市提供 [ICON_AMENITIES] 宜居度，并使陆地单位（末日机甲除外）和海军单位进攻时+1 [ICON_STRENGTH] 战斗力。</Text>
         </Replace>
+        <Replace Tag="LOC_COMBAT_PREVIEW_LUXURY_ATTACK_BONUS_DESC" Language="zh_Hans_CN">
+            <Text>+{1_Value} [ICON_STRENGTH] 战斗力 （送给国王的礼物）</Text>
+        </Replace>
         <Replace Tag="LOC_BUILDING_TLACHTLI_DESCRIPTION" Language="zh_Hans_CN">
             <Text>阿兹特克特色建筑，替代竞技场。为6个单元格范围内尚未从蹴球场获得加成的市中心提供+1 [ICON_CULTURE] 文化值和+1 [ICON_AMENITIES] 宜居度。提供+3 [ICON_TOURISM] 旅游业绩。</Text>
         </Replace>
         <Replace Tag="LOC_UNIT_AZTEC_EAGLE_WARRIOR_DESCRIPTION" Language="zh_Hans_CN">
             <Text>阿兹特克远古时代特色近战单位，替代勇士。基础 [ICON_STRENGTH] 战斗力+8。击杀敌方单位时有几率将其转化为建造者并俘获。</Text>
+        </Replace>
+        <Replace Tag="LOC_ABILITY_CAPTIVE_WORKERS_MODIFIER_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>俘获几率：{1_Amount}%</Text>
         </Replace>
         <Replace Tag="LOC_BUILDING_TLACHTLI_XP1_DESCRIPTION" Language="zh_Hans_CN">
             <Text>阿兹特克特色建筑，替代竞技场。为6个单元格范围内尚未从蹴球场获得加成的市中心提供+1 [ICON_CULTURE] 文化值和+1 [ICON_AMENITIES] 宜居度。提供+3 [ICON_TOURISM] 旅游业绩。</Text>
@@ -197,7 +215,7 @@
             <Text>巴西工业时代特色远程海军单位，替代战舰，由“民族主义”市政解锁。基础 [ICON_STRENGTH] 近战与 [ICON_RANGED] 远程攻击力-5。“精炼”科技后获得+10 [ICON_STRENGTH] 近战与 [ICON_RANGED] 远程攻击力。</Text>
         </Replace>
         <Replace Tag="LOC_BBG_ABILITY_MINAS_COMBAT_REFINING_DESC" Language="zh_Hans_CN">
-            <Text>+10近战与 [ICON_RANGED] 远程攻击力 (米纳斯吉拉斯)</Text>
+            <Text>+10 [ICON_STRENGTH] 近战和 [ICON_RANGED] 远程攻击力 (米纳斯吉拉斯)</Text>
         </Replace>
         <Replace Tag="LOC_DISTRICT_STREET_CARNIVAL_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
             <Text>巴西特色区域，替代娱乐中心。[NEWLINE][NEWLINE]+2 [ICON_AMENITIES] 宜居度。[NEWLINE][NEWLINE]解锁特色项目，启动项目期间额外提供+1 [ICON_AMENITIES] 宜居度，完成项目时获得 [ICON_GreatEngineer] 大工程师、[ICON_GreatMerchant] 大商人、[ICON_GreatWriter] 大作家、[ICON_GreatArtist] 大艺术家和 [ICON_GreatMusician] 大音乐家点数。[NEWLINE][NEWLINE]不占用区域的 [ICON_Citizen] 人口限制槽位。[NEWLINE][NEWLINE]无法在拥有科帕卡瓦纳水上乐园的城市中建造。</Text>
@@ -213,10 +231,16 @@
             <Text>每有1座圣城皈依拜占庭的 [ICON_Religion] 宗教（包括拜占庭自己的圣城），单位获得+2 [ICON_Strength] 战斗力或+3  [ICON_Religion] 宗教战斗力。[NEWLINE][NEWLINE]击杀敌方文明或城邦的单位时，将会向附近的城市传播您的 [ICON_Religion] 宗教。[NEWLINE][NEWLINE]圣地提供+1 [ICON_GreatProphet] 大预言家点数。</Text>
         </Replace>
         <Replace Tag="LOC_ABILITY_BYZANTIUM_COMBAT_UNITS_DESCRIPTION" Language="zh_Hans_CN">
-            <Text>每有1座圣城皈依您的宗教，+2 [ICON_Strength] 战斗力。击杀主要文明的单位时向周围城市传播拜占庭的 [ICON_Religion] 宗教（天授规矩）。</Text>
+            <Text>每有1座圣城皈依您的宗教，+2 [ICON_Strength] 战斗力。击杀主要文明的单位时向周围城市传播拜占庭的 [ICON_Religion] 宗教。</Text>
         </Replace>
         <Replace Tag="LOC_ABILITY_BYZANTIUM_RELIGIOUS_UNITS_DESCRIPTION" Language="zh_Hans_CN">
-            <Text>每有1座圣城皈依您的 [ICON_Religion] 宗教，+3 [ICON_Religion] 宗教战斗力（天授规矩）。</Text>
+            <Text>每有1座圣城皈依您的 [ICON_Religion] 宗教，+3 [ICON_Religion] 宗教战斗力。</Text>
+        </Replace>
+        <Replace Tag="LOC_COMBAT_PREVIEW_NUMBER_HOLY_CITIES_CONVERTED_BONUS_DESC" Language="zh_Hans_CN">
+            <Text>+{1_Amount} [ICON_STRENGTH] 战斗力（天授规矩）</Text>
+        </Replace>
+        <Replace Tag="LOC_COMBAT_PREVIEW_NUMBER_HOLY_CITIES_CONVERTED_RELIGIOUS_BONUS_DESC" Language="zh_Hans_CN">
+            <Text>+{1_Amount} [ICON_RELIGION] 宗教战斗力（天授规矩）</Text>
         </Replace>
         <Replace Tag="LOC_DISTRICT_HIPPODROME_DESCRIPTION" Language="zh_Hans_CN">
             <Text>拜占庭特色区域。替代娱乐中心，提供+3 [ICON_Amenities] 宜居度，且建造花费更低。在此区域中建成建筑后，获得1个重骑兵单位。</Text>
@@ -246,10 +270,16 @@
             <Text>甲胄骑兵周围1单元格内的陆地单位+2 [ICON_Strength] 战斗力或 [ICON_Religion] 宗教战斗力。</Text>
         </Replace>
         <Replace Tag="LOC_ABILITY_TAGMA_NONRELIGIOUS_COMBAT_DESCRIPTION" Language="zh_Hans_CN">
-            <Text>+2 [ICON_Strength] 战斗力 (甲胄骑兵)</Text>
+            <Text>位于甲胄骑兵1格范围内时+2 [ICON_STRENGTH] 战斗力。</Text>
+        </Replace>
+        <Replace Tag="LOC_ABILITY_TAGMA_COMBAT_STRENGTH_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>+2 [ICON_STRENGTH] 战斗力（甲胄骑兵）</Text>
         </Replace>
         <Replace Tag="LOC_ABILITY_TAGMA_RELIGIOUS_COMBAT_DESCRIPTION" Language="zh_Hans_CN">
-            <Text>+2 [ICON_Religion] 宗教战斗力 (甲胄骑兵)</Text>
+            <Text>位于甲胄骑兵1格范围内时+2 [ICON_RELIGION] 宗教战斗力。</Text>
+        </Replace>
+        <Replace Tag="LOC_ABILITY_TAGMA_RELIGIOUS_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>+2 [ICON_RELIGION] 宗教战斗力（甲胄骑兵）</Text>
         </Replace>
         <Replace Tag="LOC_DISTRICT_HIPPODROME_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
             <Text>拜占庭特色区域，替代娱乐中心。[NEWLINE][NEWLINE]建成此区域中的建筑后，立刻获得当前已解锁的最强重骑兵单位。</Text>
@@ -308,10 +338,10 @@
             <Text>进攻性间谍的行动效果提升1级。当进攻性间谍任务成功时，您将获得目标城市该回合产出的100% [ICON_SCIENCE] 科技值、[ICON_CULTURE] 文化值和 [ICON_FAITH] 信仰值。[NEWLINE][NEWLINE]在解锁“行政部门”市政时免费获得1名间谍，且间谍容量+1。可以使用 [ICON_FAITH] 信仰值购买间谍。[NEWLINE][NEWLINE]侦察单位周围3单元格内的陆地军事单位+3 [ICON_STRENGTH] 战斗力。[NEWLINE][NEWLINE]建成市政广场或外交区建筑时，获得一项随机的 [ICON_TechBoosted] 尤里卡和 [ICON_CivicBoosted] 鼓舞。[NEWLINE][NEWLINE]长城如果与另外两个长城单元格相邻，额外提供+1 [ICON_SCIENCE] 科技值。</Text>
         </Replace>
         <Replace Tag="LOC_BBG_WUZETIAN_COMBAT_FROM_RECON_ABILITY_PREVIEW" Language="zh_Hans_CN">
-            <Text>附近有侦察单位：+3</Text>
+            <Text>+3 [ICON_STRENGTH] 战斗力 (罗织经)</Text>
         </Replace>
         <Replace Tag="LOC_BBG_WUZETIAN_COMBAT_FROM_RECON_ABILITY_DESC" Language="zh_Hans_CN">
-            <Text>+3 [ICON_STRENGTH] 战斗力 (罗织经)</Text>
+            <Text>位于侦察单位3格范围内时+3 [ICON_STRENGTH] 战斗力。</Text>
         </Replace>
         <Replace Tag="LOC_BBG_WUZETIAN_RECON_GRANT_COMBATSTRENGTH_ABILITY_DESC" Language="zh_Hans_CN">
             <Text>为周围3单元格内的陆地军事单位提供+3 [ICON_STRENGTH] 战斗力。</Text>
@@ -329,7 +359,7 @@
             <Text>炮弹</Text>
         </Replace>
         <Replace Tag="LOC_ABILITY_TIGER_ADJACENCY_DESCRIPTION" Language="zh_Hans_CN">
-            <Text>+7 [ICON_RANGED] 战斗力 (虎蹲炮)</Text>
+            <Text>+7 [ICON_STRENGTH] 战斗力 (虎蹲炮)</Text>
         </Replace>
         <Replace Tag="LOC_IMPROVEMENT_GREAT_WALL_DESCRIPTION" Language="zh_Hans_CN">
             <Text>“砌砖”科技解锁建造者建造中国特色改良设施长城的能力。必须沿着帝国的边界线建造。只能被自然灾害掠夺（永远无法被彻底摧毁）。[NEWLINE][NEWLINE]+1 [ICON_PRODUCTION] 生产力。[NEWLINE]每相邻一段长城+1 [ICON_GOLD] 金币。[NEWLINE]“城堡”科技后每相邻一段长城额外+1 [ICON_CULTURE] 文化值。[NEWLINE][NEWLINE]当与另外两段长城单元格相邻时，根据不同的中国领袖获得不同产出：[NEWLINE]秦始皇（天命）带队时：+1 [ICON_FAITH] 信仰值和+1 [ICON_GOLD] 金币[NEWLINE]秦始皇（大一统）带队时：+1 [ICON_PRODUCTION] 生产力[NEWLINE]忽必烈带队时：+1 [ICON_CULTURE] 文化值[NEWLINE]武则天带队时：+1 [ICON_SCIENCE] 科技值[NEWLINE]朱棣带队时：+1 [ICON_FOOD] 食物[NEWLINE][NEWLINE]研究完“飞行”科技后提供 [ICON_TOURISM] 旅游业绩。[NEWLINE]驻扎单位获得+1视野和+4 [ICON_STRENGTH] 防御力，并自动获得1回合驻扎加成。</Text>
@@ -350,11 +380,17 @@
         <Replace Tag="LOC_TRAIT_LEADER_CAMPANA_ADMIRABLE_DESCRIPTION_XP1" Language="zh_Hans_CN">
             <Text>游戏每进入一个新时代，您就会获得一名总指挥。[NEWLINE]无法招募常规的 [ICON_GREATGENERAL] 大将军。</Text>
         </Replace>
+        <Replace Tag="LOC_ABILITY_COMANDANTE_AOE_STRENGTH_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>+5 [ICON_STRENGTH] 战斗力（总指挥）</Text>
+        </Replace>
         <Replace Tag="LOC_UNIT_COLOMBIAN_LLANERO_DESCRIPTION" Language="zh_Hans_CN">
-            <Text>大哥伦比亚工业时代特色轻骑兵单位，替代骑兵。[NEWLINE][NEWLINE]每相邻一个牛仔骑兵，提供+2 [ICON_STRENGTH] 战斗力。[NEWLINE]若在总指挥激活“隐退”技能的范围内，将完全恢复生命值。</Text>
+            <Text>大哥伦比亚工业时代特色轻骑兵单位，替代骑兵。[NEWLINE][NEWLINE]每相邻一个牛仔骑兵，+2 [ICON_STRENGTH] 战斗力。[NEWLINE]若在总指挥激活“隐退”技能的范围内，将完全恢复生命值。</Text>
         </Replace>
         <Replace Tag="LOC_ABILITY_LLANERO_ADJACENCY_STRENGTH_DESCRIPTION" Language="zh_Hans_CN">
-            <Text>每相邻一个牛仔骑兵单位提供+2 [ICON_STRENGTH] 战斗力。</Text>
+            <Text>每相邻一个牛仔骑兵+2 [ICON_STRENGTH] 战斗力。</Text>
+        </Replace>
+        <Replace Tag="LOC_LLANERO_ADJACENCY_STRENGTH_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>+{CalculatedAmount} [ICON_STRENGTH] 战斗力（牛仔骑兵）</Text>
         </Replace>
         <Replace Tag="LOC_IMPROVEMENT_HACIENDA_DESCRIPTION" Language="zh_Hans_CN">
             <Text>大哥伦比亚特色改良设施，解锁于“中世纪集市”市政。[NEWLINE][NEWLINE]+1 [ICON_PRODUCTION] 生产力、+2 [ICON_GOLD] 金币和+0.5 [ICON_HOUSING] 住房。[NEWLINE]每相邻2个种植园提供+1 [ICON_FOOD] 食物（“零件规格化”科技后提升至每相邻1个种植园+1 [ICON_FOOD] 食物）。[NEWLINE][NEWLINE]每相邻2个大庄园，大庄园和种植园+1 [ICON_PRODUCTION] 生产力（“重商主义”市政后提升至每相邻1个大庄园+1 [ICON_PRODUCTION] 生产力）。[NEWLINE][NEWLINE]只能在平原或草原上建造。</Text>
@@ -370,7 +406,7 @@
             <Text>您发出的 [ICON_TRADEROUTE] 贸易路线可从目的地城市3单元格内的每个营地或牧场获得+1 [ICON_FOOD] 食物。接收的国际 [ICON_TRADEROUTE] 贸易路线可为您的城市从目的地城市3单元格内的每个营地或牧场提供+1 [ICON_GOLD] 金币。[NEWLINE][NEWLINE]所有类型的同盟都会提供共享视野。</Text>
         </Replace>
         <Replace Tag="LOC_UNIT_CREE_OKIHTCITAW_DESCRIPTION" Language="zh_Hans_CN">
-            <Text>克里远古时代特色侦察单位，替代侦察兵。[NEWLINE][NEWLINE]基础 [ICON_STRENGTH] 战斗力+5。与基础战斗力更强的军事单位作战时+5 [ICON_STRENGTH] 战斗力。[NEWLINE]初始便获得一次免费的 [ICON_PROMOTION] 升级。</Text>
+            <Text>克里远古时代特色侦察单位，替代侦察兵。[NEWLINE][NEWLINE]基础 [ICON_STRENGTH] 战斗力+5。对抗基础战斗力更高的单位时+5 [ICON_STRENGTH] 战斗力。[NEWLINE]初始便获得一次免费的 [ICON_PROMOTION] 升级。</Text>
         </Replace>
         <Replace Tag="LOC_TRAIT_CIVILIZATION_GROTE_RIVIEREN_DESCRIPTION" Language="zh_Hans_CN">
             <Text>学院、剧院广场和工业区如果与河流相邻，可获得+2相邻加成。建成港口区域后将触发文化炸弹，获得周围的单元格。[NEWLINE][NEWLINE][ICON_BULLET]出生地关联：T2海岸与河流。</Text>
@@ -382,7 +418,7 @@
             <Text>+5 [ICON_STRENGTH] 战斗力 (奥克奇塔乌)</Text>
         </Replace>
         <Replace Tag="LOC_BBG_ABILITY_OKIHTCITAW_STRONG_AGAINST_STRONGER_UNITS_DESCRIPTION" Language="zh_Hans_CN">
-            <Text>+5 [ICON_STRENGTH] 战斗力 (奥克奇塔乌)</Text>
+            <Text>对抗基础战斗力更高的单位时+5 [ICON_STRENGTH] 战斗力。</Text>
         </Replace>
         <Replace Tag="LOC_IMPROVEMENT_MEKEWAP_DESCRIPTION" Language="zh_Hans_CN">
             <Text>克里特色改良设施，解锁于“制陶术”科技。[NEWLINE][NEWLINE]+1 [ICON_PRODUCTION] 生产力与+1 [ICON_HOUSING] 住房。[NEWLINE]每相邻2个加成资源提供+1 [ICON_FOOD] 食物（“保护地球”市政后提升至每相邻1个加成资源+1 [ICON_FOOD] 食物）。[NEWLINE]解锁“行政部门”市政后额外+1 [ICON_PRODUCTION] 生产力和+1 [ICON_HOUSING] 住房。[NEWLINE]若相邻奢侈品资源，则提供+1 [ICON_GOLD] 金币。[NEWLINE]“制图学”科技后，每相邻一个奢侈品资源提供+2 [ICON_GOLD] 金币。[NEWLINE][NEWLINE]必须建在加成资源或奢侈品资源旁边。两座棚屋不能相邻。</Text>
@@ -398,10 +434,16 @@
             <Text>+3 [ICON_Strength] 战斗力（橙色电台）</Text>
         </Replace>
         <Replace Tag="LOC_BBG_POLDER_DEFENSIVE_CS_DESC" Language="zh_Hans_CN">
-            <Text>+3 [ICON_Strength] 战斗力（橙色电台）</Text>
+            <Text>位于圩田单元格上时+3 [ICON_Strength] 战斗力。</Text>
         </Replace>
         <Replace Tag="LOC_UNIT_DE_ZEVEN_PROVINCIEN_DESCRIPTION" Language="zh_Hans_CN">
             <Text>荷兰文艺复兴时代特色远程海军单位，替代护卫舰。[NEWLINE][NEWLINE]基础近战与 [ICON_RANGED] 远程攻击力+5。[NEWLINE]攻击具有防御力的区域时+7 [ICON_Strength] 战斗力。</Text>
+        </Replace>
+        <Replace Tag="LOC_ABILITY_PREVIEW_ZEVEN_PROVINCIEN_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>+7 [ICON_STRENGTH] 战斗力（七省级护卫舰）</Text>
+        </Replace>
+        <Replace Tag="LOC_ABILITY_DUTCH_ZEVEN_PROVINCIEN_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>攻击具有防御力的区域时+7 [ICON_Strength] 战斗力。</Text>
         </Replace>
         <Replace Tag="LOC_IMPROVEMENT_POLDER_DESCRIPTION" Language="zh_Hans_CN">
             <Text>荷兰特色改良设施，解锁于“封建主义”市政。[NEWLINE][NEWLINE]+1 [ICON_FOOD] 食物、+1 [ICON_PRODUCTION] 生产力且+0.5 [ICON_HOUSING] 住房。[NEWLINE]每相邻1个圩田提供+1 [ICON_FOOD] 食物（“零件规格化”科技后提升至+2 [ICON_FOOD] 食物）。[NEWLINE]每相邻2个圩田提供+1 [ICON_PRODUCTION] 生产力（“零件规格化”科技后提升至每相邻1个圩田+1 [ICON_PRODUCTION] 生产力）。[NEWLINE]每相邻1个港口提供+1 [ICON_PRODUCTION] 生产力。[NEWLINE]“土木工程”市政后提供+4 [ICON_GOLD] 金币。[NEWLINE][NEWLINE]必须建造在与至少1个可通行陆地单元格相邻的海岸或湖泊单元格上。</Text>
@@ -488,6 +530,9 @@
         <Replace Tag="LOC_UNIT_ENGLISH_SEADOG_DESCRIPTION" Language="zh_Hans_CN">
             <Text>伊丽莎白一世文艺复兴时代特色海军袭击者单位，替代私掠船。[NEWLINE][NEWLINE]基础 [ICON_STRENGTH] 战斗力+3。[NEWLINE]击杀敌方海军单位时有几率将其俘获。[NEWLINE]除非与敌方单位相邻，否则只能被其他海军袭击者发现。能够揭露视野内的敌方海军袭击者。</Text>
         </Replace>
+        <Replace Tag="LOC_ABILITY_PRIZE_SHIPS_MODIFIER_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>俘获几率：{1_Amount}%</Text>
+        </Replace>
         <Replace Tag="LOC_UNIT_ENGLISH_REDCOAT_DESCRIPTION" Language="zh_Hans_CN">
             <Text>维多利亚（帝国时代）工业时代特色近战单位，替代线列步兵。[NEWLINE][NEWLINE]基础 [ICON_STRENGTH] 战斗力+5。[NEWLINE]在非 [ICON_CAPITAL] 首都所在的大陆作战时+5 [ICON_STRENGTH] 战斗力。[NEWLINE]登陆时没有 [ICON_MOVEMENT] 移动力和 [ICON_STRENGTH] 战斗力减益。</Text>
         </Replace>
@@ -529,7 +574,10 @@
             <Text>埃塞俄比亚中世纪特色轻骑兵单位，替代追猎者。[NEWLINE][NEWLINE]基础 [ICON_STRENGTH] 战斗力+2，且视野+1。[NEWLINE]在丘陵上作战时+4 [ICON_STRENGTH] 战斗力。[NEWLINE]在丘陵上开始回合时+1 [ICON_MOVEMENT] 移动力。</Text>
         </Replace>
         <Replace Tag="LOC_ABILITY_ETHIOPIAN_OROMO_CAVALRY_DESCRIPTION" Language="zh_Hans_CN">
-            <Text>在丘陵上作战时+4 [ICON_STRENGTH] 战斗力。[NEWLINE]在丘陵上开始回合时+1 [ICON_MOVEMENT] 移动力。</Text>
+            <Text>在丘陵上作战时+4 [ICON_STRENGTH] 战斗力，在丘陵上开始回合时+1 [ICON_MOVEMENT] 移动力。</Text>
+        </Replace>
+        <Replace Tag="LOC_ABILITY_MENELIK_HILLS_COMBAT_STRENGTH_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>+{1_Amount} [ICON_STRENGTH] 战斗力（奥罗莫骑兵）</Text>
         </Replace>
         <Replace Tag="LOC_IMPROVEMENT_ROCK_HEWN_CHURCH_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
             <Text>埃塞俄比亚特色改良设施，解锁于“戏剧与诗歌”市政。[NEWLINE][NEWLINE]每相邻1个丘陵或山脉单元格提供+1 [ICON_FAITH] 信仰值。[NEWLINE][NEWLINE]为相邻单元格提供+1魅力。[NEWLINE]“飞行”科技后基于信仰值产出提供 [ICON_TOURISM] 旅游业绩。[NEWLINE][NEWLINE]无法被自然灾害摧毁。只能建在丘陵或火山土上。两座独石教堂不能相邻。</Text>
@@ -559,6 +607,9 @@
         <Replace Tag="LOC_ABILITY_GARDE_DESCRIPTION" Language="zh_Hans_CN">
             <Text>在 [ICON_CAPITAL] 首都所在的大陆上作战时+5 [ICON_STRENGTH] 战斗力。[NEWLINE][ICON_BULLET] 击杀敌方单位时获得10点 [ICON_GREATGENERAL] 大将军点数（帝国卫队）。</Text>
         </Replace>
+        <Replace Tag="LOC_ABILITY_GARDE_CONTINENT_COMBAT_MODIFIER_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>+{1_Amount} [ICON_STRENGTH] 战斗力（帝国卫队）</Text>
+        </Replace>
         <Replace Tag="LOC_IMPROVEMENT_CHATEAU_DESCRIPTION" Language="zh_Hans_CN">
             <Text>法国特色建造者改良设施，解锁于“封建主义”市政。不能与另一座城堡相邻建造。[NEWLINE][NEWLINE]+1 [ICON_FOOD] 食物、+1 [ICON_CULTURE] 文化值、+1 [ICON_GOLD] 金币[NEWLINE]+1 [ICON_HOUSING] 住房，且为相邻单元格提供+1魅力。[NEWLINE]每相邻一座奇观+1 [ICON_CULTURE] 文化值（解锁“飞行”科技后提升至+2 [ICON_CULTURE] 文化值）。[NEWLINE]每相邻一处奢侈品资源+1 [ICON_CULTURE] 文化值和+1 [ICON_GOLD] 金币。[NEWLINE]如果建在河流旁则+2 [ICON_GOLD] 金币。[NEWLINE][NEWLINE]解锁“飞行”科技后提供 [ICON_TOURISM] 旅游业绩。</Text>
         </Replace>
@@ -585,10 +636,13 @@
             <Text>您的近战和抗骑兵单位每相邻一个军事单位，+1 [ICON_STRENGTH] 战斗力。[NEWLINE][NEWLINE]解锁“铸铜术”科技后，完成陆地军事单位的训练将获得等同于其25% [ICON_PRODUCTION] 生产力花费的 [ICON_CULTURE] 文化值。[NEWLINE][NEWLINE]建造矿山会触发文化炸弹。</Text>
         </Replace>
         <Replace Tag="LOC_ABILITY_AMBIORIX_NEIGHBOR_COMBAT_BONUS_DESCRIPTION" Language="zh_Hans_CN">
-            <Text>每相邻一个友方单位，+1 [ICON_STRENGTH] 战斗力（厄勃隆尼斯之王）。</Text>
+            <Text>每相邻一个单位，+1 [ICON_STRENGTH] 战斗力。</Text>
+        </Replace>
+        <Replace Tag="LOC_COMBAT_PREVIEW_NEIGHBOR_COMBAT_BONUS_DESC" Language="zh_Hans_CN">
+            <Text>+{1_Amount} [ICON_STRENGTH] 战斗力 （厄勃隆尼斯之王）</Text>
         </Replace>
         <Replace Tag="LOC_ABILITY_AMBIORIX_COMBAT_BONUS_DESC" Language="zh_Hans_CN">
-            <Text>厄勃隆尼斯之王</Text>
+            <Text></Text>
         </Replace>
         <Replace Tag="LOC_TRAIT_LEADER_SUK_GALLIC_WAR_NAME" Language="zh_Hans_CN">
             <Text>高卢邦联</Text>
@@ -606,7 +660,10 @@
             <Text>高卢远古时代特色近战单位，替代勇士。[NEWLINE][NEWLINE]与基础战斗力更高的军事单位作战时+10 [ICON_STRENGTH] 战斗力。[NEWLINE]攻击具有防御力的区域时+5 [ICON_STRENGTH] 战斗力。</Text>
         </Replace>
         <Replace Tag="LOC_ABILITY_GAESATAE_DESCRIPTION" Language="zh_Hans_CN">
-            <Text>与基础战斗力更高的军事单位作战时+10 [ICON_STRENGTH] 战斗力。[NEWLINE]攻击具有防御力的区域时+5 [ICON_STRENGTH] 战斗力。</Text>
+            <Text>对抗基础战斗力更高的单位时+10 [ICON_STRENGTH] 战斗力。[NEWLINE]攻击具有防御力的区域时+5 [ICON_STRENGTH] 战斗力。</Text>
+        </Replace>
+        <Replace Tag="LOC_ABILITY_GAESATAE_COMBAT_STRENGTH_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>+{1_Amount} [ICON_STRENGTH] 战斗力（高卢枪佣兵）</Text>
         </Replace>
         <Replace Tag="LOC_DISTRICT_OPPIDUM_DESCRIPTION" Language="zh_Hans_CN">
             <Text>高卢特色区域，替代工业区，解锁于“炼铁术”科技。[NEWLINE][NEWLINE]每相邻一个战略资源提供+2 [ICON_PRODUCTION] 生产力。[NEWLINE]每相邻一个采石场提供+1 [ICON_PRODUCTION] 生产力。[NEWLINE][NEWLINE]奥皮杜姆拥有城墙防御，可进行远程攻击。[NEWLINE]建成后会触发文化炸弹，获得相邻的中立单元格。</Text>
