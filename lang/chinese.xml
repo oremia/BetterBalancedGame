@@ -125,18 +125,24 @@
         </Replace>
 
         <!-- 奥地利 -->
+
+        <!-- 文明能力 -->
         <Replace Tag="LOC_TRAIT_CIVILIZATION_MER_CROWNLANDS_NAME" Language="zh_Hans_CN">
             <Text>政治联姻</Text>
         </Replace>
         <Replace Tag="LOC_TRAIT_CIVILIZATION_MER_CROWNLANDS_DESCRIPTION" Language="zh_Hans_CN">
-            <Text>每次建成市政广场建筑时，获得一位专属的外交官伟人，能够吞并已宗主的城邦，且与其他文明的 [ICON_CAPITAL] 首都相邻时，每回合+1 [ICON_FAVOR] 外交支持。。</Text>
+            <Text>每次建成市政广场建筑时，获得一位专属的外交官伟人，能够吞并已宗主的城邦，且与其他文明的 [ICON_CAPITAL] 首都相邻时，每回合+1 [ICON_FAVOR] 外交支持。</Text>
         </Replace>
+
+        <!-- 领袖能力 -->
         <Replace Tag="LOC_TRAIT_LEADER_MER_THERESIAN_REFORM_NAME" Language="zh_Hans_CN">
             <Text>特蕾西亚改革</Text>
         </Replace>
         <Replace Tag="LOC_TRAIT_LEADER_MER_THERESIAN_REFORM_DESCRIPTION" Language="zh_Hans_CN">
             <Text>已就职的 [ICON_GOVERNOR] 总督提供以下加成：[NEWLINE][ICON_BULLET]每回合+1 [ICON_INFLUENCEPERTURN] 影响力点数[NEWLINE][ICON_BULLET]建造区域时+15% [ICON_PRODUCTION] 生产力[NEWLINE][ICON_BULLET]生产单位时+15% [ICON_PRODUCTION] 生产力。[NEWLINE][NEWLINE]若 [ICON_CAPITAL] 首都中已建成对应区域，则所有该类型 [ICON_DISTRICT] 特色区域（首都除外）提供+1 [ICON_HOUSING] 住房。</Text>
         </Replace>
+
+        <!-- 边防军 -->
         <Replace Tag="LOC_UNIT_MER_GRENZER_NAME" Language="zh_Hans_CN">
             <Text>边防军</Text>
         </Replace>
@@ -149,6 +155,8 @@
         <Replace Tag="LOC_MODIFIER_MER_GRENZER_NEAR_TERRITORY_DESC" Language="zh_Hans_CN">
 			<Text>+5 [ICON_STRENGTH] 战斗力（边防军）</Text>
 		</Replace>
+
+        <!-- 大外交官 -->
         <Replace Tag="LOC_UNIT_GREAT_DIPLOMAT_NAME" Language="zh_Hans_CN">
             <Text>大外交官</Text>
         </Replace>
@@ -158,11 +166,13 @@
         <Replace Tag="LOC_BBG_DIPLOMAT_PASSIVE" Language="zh_Hans_CN">
 			<Text>与其他文明的 [ICON_CAPITAL] 首都相邻时，每回合+1 [ICON_FAVOR] 外交支持。</Text>
 		</Replace>
+
+        <!-- 咖啡馆 -->
         <Replace Tag="LOC_BUILDING_MER_COFFEE_HOUSE_NAME" Language="zh_Hans_CN">
             <Text>咖啡馆</Text>
         </Replace>
         <Replace Tag="LOC_BUILDING_MER_COFFEE_HOUSE_DESCRIPTION" Language="zh_Hans_CN">
-            <Text>奥地利特色建筑，替代动物园，解锁于“启蒙运动”市政。所在城市的每个 [ICON_DISTRICT] 特色区域提供+1 [ICON_SCIENCE] 科技值和+1 [ICON_CULTURE] 文化值。为6格范围内的城市提供+2 [ICON_AMENITIES] 宜居度。拥有3个巨作槽位，当巨作来自不同的 [ICON_GREATPERSON] 伟人时，获得 [ICON_THEMEBONUS_ACTIVE] 主题化加成。建造花费更低。</Text>
+            <Text>奥地利特色建筑，替代动物园，解锁于“启蒙运动”市政。所在城市的每个 [ICON_DISTRICT] 区域提供+1 [ICON_SCIENCE] 科技值和+1 [ICON_CULTURE] 文化值。为6格范围内的城市提供+2 [ICON_AMENITIES] 宜居度。拥有3个巨作槽位，当巨作来自不同的 [ICON_GREATPERSON] 伟人时，获得 [ICON_THEMEBONUS_ACTIVE] 主题化加成。建造花费更低。</Text>
         </Replace>
 
         <Replace Tag="LOC_TRAIT_CIVILIZATION_LEGEND_FIVE_SUNS_DESCRIPTION" Language="zh_Hans_CN">
@@ -6658,18 +6668,12 @@
         <Replace Tag="LOC_CIVILIZATION_MER_AUSTRIA_DESCRIPTION" Language="zh_Hans_CN">
             <Text>奥地利</Text>
         </Replace>
-        <Replace Tag="LOC_CIVILIZATION_MER_AUSTRIA_DESCRIPTION_JFD_CIVILIZATION" Language="zh_Hans_CN">
-            <Text>奥地利文明</Text>
-        </Replace>
         <Replace Tag="LOC_CIVILIZATION_MER_AUSTRIA_ADJECTIVE" Language="zh_Hans_CN">
             <Text>奥地利的</Text>
         </Replace>
         <Replace Tag="LOC_LEADER_MER_MARIA_THERESA_NAME" Language="zh_Hans_CN">
 			<Text>玛丽亚·特蕾西亚</Text>
 		</Replace>
-        <Replace Tag="LOC_CIVINFO_MER_AUSTRIA_LOCATION" Language="zh_Hans_CN">
-            <Text>奥地利</Text>
-        </Replace>
 
         <!-- 单位补充 -->
         <Replace Tag="LOC_TRAIT_CIVILIZATION_UNIT_MER_GRENZER_NAME" Language="zh_Hans_CN">
@@ -6678,9 +6682,6 @@
         <Replace Tag="LOC_TRAIT_CIVILIZATION_UNIT_MER_GRENZER_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>奥地利特色侦察单位</Text>
 		</Replace>
-        <Replace Tag="LOC_GREAT_PERSON_CLASS_AUSTRIAN_DIPLOMAT_NAME" Language="zh_Hans_CN">
-            <Text>大外交官</Text>
-        </Replace>
 
         <!-- 建筑补充 -->
         <Replace Tag="LOC_TRAIT_CIVILIZATION_BUILDING_MER_COFFEE_HOUSE_NAME" Language="zh_Hans_CN">
@@ -6694,6 +6695,8 @@
         </Replace>
 
         <!-- 地名 -->
+
+        <!-- 城市 -->
         <Replace Tag="LOC_CITY_NAME_MER_AUSTRIA_1" Language="zh_Hans_CN">
             <Text>维也纳</Text>
         </Replace>
@@ -6749,7 +6752,7 @@
             <Text>韦尔斯</Text>
         </Replace>
         <Replace Tag="LOC_CITY_NAME_MER_AUSTRIA_19" Language="zh_Hans_CN">
-            <Text>圣法伊特</Text>
+            <Text>格兰河畔圣法伊特</Text>
         </Replace>
         <Replace Tag="LOC_CITY_NAME_MER_AUSTRIA_20" Language="zh_Hans_CN">
             <Text>尤登堡</Text>
@@ -6782,13 +6785,15 @@
             <Text>格洛格尼茨</Text>
         </Replace>
         <Replace Tag="LOC_CITY_NAME_MER_AUSTRIA_30" Language="zh_Hans_CN">
-            <Text>布鲁克</Text>
+            <Text>莱塔河畔布鲁克</Text>
         </Replace>
+
+        <!-- 预留城市 -->
         <Replace Tag="LOC_CITY_NAME_MER_AUSTRIA_31" Language="zh_Hans_CN">
             <Text>拉克森堡</Text>
         </Replace>
         <Replace Tag="LOC_CITY_NAME_MER_AUSTRIA_32" Language="zh_Hans_CN">
-            <Text>施皮塔尔</Text>
+            <Text>德拉瓦河畔施皮塔尔</Text>
         </Replace>
         <Replace Tag="LOC_CITY_NAME_MER_AUSTRIA_33" Language="zh_Hans_CN">
             <Text>塞考</Text>
@@ -6805,9 +6810,13 @@
         <Replace Tag="LOC_CITY_NAME_MER_AUSTRIA_37" Language="zh_Hans_CN">
             <Text>巴德加施泰因</Text>
         </Replace>
+
+        <!-- 火山 -->
         <Replace Tag="LOC_NAMED_VOLCANO_AUSTRIA_NAME" Language="zh_Hans_CN">
             <Text>里格斯堡</Text>
         </Replace>
+
+        <!-- 山脉 -->
         <Replace Tag="LOC_NAMED_MOUNTAIN_AUSTRIA_1_NAME" Language="zh_Hans_CN">
             <Text>齐勒河谷阿尔卑斯山</Text>
         </Replace>
@@ -6818,7 +6827,23 @@
             <Text>厄茨塔尔阿尔卑斯山</Text>
         </Replace>
 
-        <!-- 人名 -->
+        <!-- 河流 -->
+        <Replace Tag="LOC_NAMED_RIVER_AUSTRIA_1_NAME" Language="zh_Hans_CN">
+            <Text>德拉瓦河</Text>
+        </Replace>
+        <Replace Tag="LOC_NAMED_RIVER_AUSTRIA_2_NAME" Language="zh_Hans_CN">
+            <Text>萨瓦河</Text>
+        </Replace>
+
+        <!-- 湖泊 -->
+        <Replace Tag="LOC_NAMED_LAKE_AUSTRIA_1_NAME" Language="zh_Hans_CN">
+            <Text>费尔特湖</Text>
+        </Replace>
+
+        <!-- 大外交官 -->
+        <Replace Tag="LOC_GREAT_PERSON_CLASS_AUSTRIAN_DIPLOMAT_NAME" Language="zh_Hans_CN">
+            <Text>大外交官</Text>
+        </Replace>
         <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_AUSTRIA_1_NAME" Language="zh_Hans_CN">
             <Text>托马斯·埃本多弗</Text>
         </Replace>
@@ -6855,6 +6880,10 @@
         <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_AUSTRIA_12_NAME" Language="zh_Hans_CN">
             <Text>约翰·格奥尔格·冯·哈恩</Text>
         </Replace>
+
+        <!-- 市民人名 -->
+
+        <!-- 普通男性 -->
         <Replace Tag="LOC_CITIZEN_MER_AUSTRIA_MALE_1" Language="zh_Hans_CN">
             <Text>卢卡斯</Text>
         </Replace>
@@ -6868,7 +6897,7 @@
             <Text>耶格尔</Text>
         </Replace>
         <Replace Tag="LOC_CITIZEN_MER_AUSTRIA_MALE_5" Language="zh_Hans_CN">
-            <Text>欧文</Text>
+            <Text>埃尔温</Text>
         </Replace>
         <Replace Tag="LOC_CITIZEN_MER_AUSTRIA_MALE_6" Language="zh_Hans_CN">
             <Text>西格蒙德</Text>
@@ -6885,6 +6914,8 @@
         <Replace Tag="LOC_CITIZEN_MER_AUSTRIA_MALE_10" Language="zh_Hans_CN">
             <Text>阿贝尔勒</Text>
         </Replace>
+
+        <!-- 普通女性 -->
         <Replace Tag="LOC_CITIZEN_MER_AUSTRIA_FEMALE_1" Language="zh_Hans_CN">
             <Text>安娜</Text>
         </Replace>
@@ -6915,6 +6946,8 @@
         <Replace Tag="LOC_CITIZEN_MER_AUSTRIA_FEMALE_10" Language="zh_Hans_CN">
             <Text>法拉希尔德</Text>
         </Replace>
+
+        <!-- 现代男性 -->
         <Replace Tag="LOC_CITIZEN_MER_AUSTRIA_MODERN_MALE_1" Language="zh_Hans_CN">
             <Text>卢卡斯</Text>
         </Replace>
@@ -6928,7 +6961,7 @@
             <Text>耶格尔</Text>
         </Replace>
         <Replace Tag="LOC_CITIZEN_MER_AUSTRIA_MODERN_MALE_5" Language="zh_Hans_CN">
-            <Text>欧文</Text>
+            <Text>埃尔温</Text>
         </Replace>
         <Replace Tag="LOC_CITIZEN_MER_AUSTRIA_MODERN_MALE_6" Language="zh_Hans_CN">
             <Text>西格蒙德</Text>
@@ -6945,6 +6978,8 @@
         <Replace Tag="LOC_CITIZEN_MER_AUSTRIA_MODERN_MALE_10" Language="zh_Hans_CN">
             <Text>阿贝尔勒</Text>
         </Replace>
+
+        <!-- 现代女性 -->
         <Replace Tag="LOC_CITIZEN_MER_AUSTRIA_MODERN_FEMALE_1" Language="zh_Hans_CN">
             <Text>安娜</Text>
         </Replace>
@@ -6978,7 +7013,7 @@
 
         <!-- 开场 -->
         <Replace Tag="LOC_LOADING_INFO_LEADER_MER_MARIA_THERESA" Language="zh_Hans_CN">
-            <Text>愿上帝庇佑并守护您，玛丽亚·特蕾西亚，温德边疆的女领主、奥地利女大公。您的责任与理想，是将广阔的王冠领地联合为同一个国家，使其拥有共同的愿景与信仰。凭借外交、良政与对艺术的热爱，您的国度必将繁荣；但对奥地利而言，利剑与羽笔同样不可或缺。为了希望而进行的斗争已经开始，陛下，而它始于今日。</Text>
+            <Text>愿上帝庇佑并守护您，玛丽亚·特蕾西亚，温德边疆的女领主、奥地利女大公。您的责任与理想，是将广阔的王冠领地联合为同一个国家，让人民拥有共同的愿景，并对国家本身及其尊严抱有共同信念。凭借外交、良政与对艺术的热爱，您的国度必将繁荣；但对奥地利而言，利剑与羽笔同样不可或缺。为了希望而进行的斗争已经开始，陛下，而它始于今日。</Text>
         </Replace>
 
         <!-- 议程 -->
@@ -6995,13 +7030,13 @@
             <Text>玛丽亚·特蕾西亚赞赏你们共同的政体与宗教。</Text>
         </Replace>
         <Replace Tag="LOC_DIPLO_WARNING_LEADER_MER_MARIA_THERESA_REASON_NO_RELIGION" Language="zh_Hans_CN">
-            <Text>（你们并未共享相同的政体与宗教）</Text>
+            <Text>（你们拥有不同的宗教和政体）</Text>
         </Replace>
         <Replace Tag="LOC_DIPLO_MODIFIER_MER_MARIA_THERESA_THERESA_AGENDA_DIFF_REL_GOV" Language="zh_Hans_CN">
             <Text>玛丽亚·特蕾西亚厌恶你的政体与宗教。</Text>
         </Replace>
         <Replace Tag="LOC_DIPLO_DENOUNCE_REASON_FROM_AI_LEADER_ANY_REASON_MER_MARIA_THERESA_THERESA_AGENDA_DIFF_REL_GOV" Language="zh_Hans_CN">
-            <Text>（你们拥有不同的宗教和/或政体）</Text>
+            <Text>（你们拥有不同的宗教和政体）</Text>
         </Replace>
 
         <!-- 外交 -->
@@ -7027,7 +7062,7 @@
             <Text>我此刻不想接待任何访客。</Text>
         </Replace>
         <Replace Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_MER_MARIA_THERESA_ANY" Language="zh_Hans_CN">
-            <Text>我派出了一支使团，带来了最好的咖啡与苹果卷。希望您会喜欢，它们最适合作为谈话的开场。</Text>
+            <Text>我派出了一支使团，带来了最好的咖啡与苹果卷。希望您会喜欢，它们都是不错的开胃佳品。</Text>
         </Replace>
         <Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_MER_MARIA_THERESA_ANY" Language="zh_Hans_CN">
             <Text>这可以接受。</Text>
@@ -7042,7 +7077,7 @@
             <Text>我欣然接受！我们的友谊将使双方的国度都从中受益。</Text>
         </Replace>
         <Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_MER_MARIA_THERESA_ANY" Language="zh_Hans_CN">
-            <Text>我无法向像您这样卑劣的人宣称友谊。</Text>
+            <Text>我无法向像您这样身份低微的人宣称友谊。</Text>
         </Replace>
         <Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_MER_MARIA_THERESA_ANY" Language="zh_Hans_CN">
             <Text>友谊将有益于我们所有的人民。</Text>
@@ -7104,10 +7139,10 @@
             <Text>奥地利是一个位于中欧的德语国家，以山地村庄、巴洛克建筑、帝国历史以及崎岖壮丽的阿尔卑斯山地形而闻名。其首都维也纳坐落于多瑙河畔，拥有美泉宫与霍夫堡宫等著名建筑。莫扎特、施特劳斯与弗洛伊德等历史人物都曾居住于此。奥地利其他著名地区还包括北部的波希米亚森林、特劳恩湖以及东部丘陵地带的葡萄园。</Text>
         </Replace>
         <Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_MER_AUSTRIA_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
-            <Text>自1273年至1918年，奥地利长期由哈布斯堡家族及哈布斯堡-洛林家族统治。1806年，奥地利皇帝弗朗茨二世解散神圣罗马帝国，奥地利帝国随之建立，并成为德意志邦联的重要成员，直至1866年普奥战争结束。1867年，奥地利与匈牙利组成二元君主制国家——奥匈帝国。第一次世界大战结束后，奥匈帝国于1918年解体，奥地利仅保留以德语地区为核心的疆域，并一度定名为“德意志奥地利共和国”。然而，根据协约国制定的《圣日耳曼条约》，奥地利被禁止与德国统一，也不得继续使用这一名称，随后建立了奥地利第一共和国。</Text>
+            <Text>1282年，鲁道夫一世将奥地利和施蒂里亚两公国授予其子，奠定了哈布斯堡家族在奥地利的世袭统治。此后，哈布斯堡家族及哈布斯堡-洛林家族统治奥地利，直至1918年君主制终结。1804年，神圣罗马皇帝弗朗茨二世宣布建立奥地利帝国，并以弗朗茨一世之名兼任奥地利皇帝。1806年，他放弃神圣罗马皇帝称号，神圣罗马帝国随之终结。1815年，奥地利成为新成立的德意志邦联的成员；邦联于1866年普奥战争后解体。1867年，奥地利与匈牙利达成折衷方案，组成二元君主制的奥匈帝国。1918年第一次世界大战结束、奥匈帝国解体后，奥地利第一共和国成立，最初使用“德意志奥地利共和国”这一名称，并寻求与德国合并。1919年《圣日耳曼条约》确立了奥地利的战后疆界，并限制其与德国合并；同年，国名改为“奥地利共和国”。</Text>
         </Replace>
         <Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_MER_AUSTRIA_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
-            <Text>第一共和国时期，奥地利法西斯主义政府试图维持奥地利相对于德国的独立地位。时任总理恩格尔伯特·陶尔斐斯承认，大多数奥地利人在文化与民族认同上同时视自己为德国人与奥地利人，但他坚持维护国家独立。1938年，出生于奥地利的阿道夫·希特勒发动“德奥合并”，将奥地利并入纳粹德国，此举获得了相当数量奥地利民众的支持。第二次世界大战结束后，奥地利于1955年恢复独立，并建立奥地利第二共和国。</Text>
+            <Text>1933年起，恩格尔伯特·陶尔斐斯领导的政府逐步结束议会民主，建立威权统治。1934年，奥地利通过新宪法，正式确立通常被称为奥地利法西斯主义的独裁体制。该政权试图维持国家相对于纳粹德国的独立。1938年3月，纳粹德国出兵并吞并奥地利，奥地利由此失去独立。吞并得到不少奥地利民众的欢迎与支持，同时也伴随着纳粹对犹太人及政治反对者等群体的迫害。1945年4月27日，奥地利宣布恢复独立，第二共和国重建，但国家仍处于盟国占领之下。1955年《奥地利国家条约》生效、盟军撤离后，奥地利恢复了完整主权。</Text>
         </Replace>
         <Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MER_MARIA_THERESA_TITLE" Language="zh_Hans_CN">
             <Text>玛丽亚·特蕾西亚</Text>
@@ -7122,13 +7157,13 @@
             <Text>玛丽亚·特蕾西亚领导下的奥地利专注于发展城市与首都，以获取各类加成。</Text>
         </Replace>
         <Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MER_MARIA_THERESA_QUOTE" Language="zh_Hans_CN">
-            <Text>“在这一切苦难与动荡之中，唯有我始终怀着孩童般的信赖，不断向上帝祈求援助。”</Text>
+            <Text>“在这一切苦难之中，唯有我仍最有勇气，怀着孩童般的信赖，频频祈求上帝的援助。”</Text>
         </Replace>
         <Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MER_MARIA_THERESA_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
             <Text>玛丽亚·特蕾西亚·瓦尔布加·阿玛利亚·克里斯蒂娜是哈布斯堡领地唯一的女性统治者，也是哈布斯堡家族最后一位直系君主。她统治着奥地利、匈牙利、克罗地亚、波希米亚、特兰西瓦尼亚、米兰、曼图亚、加利西亚与洛多梅里亚、奥属尼德兰以及帕尔马等领地。通过婚姻，她还成为洛林公爵夫人、托斯卡纳大公夫人以及神圣罗马帝国皇后。</Text>
         </Replace>
         <Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MER_MARIA_THERESA_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
-            <Text>1740年10月，其父皇帝查理六世去世后，玛丽亚·特蕾西亚开始了长达40年的统治。查理六世曾通过1713年的《国事诏书》为她的继承权铺平道路，并在其一生中不断巩固这一安排。然而在他去世后，萨克森、普鲁士、巴伐利亚与法国均背弃了它们生前承认过的诏书。普鲁士国王腓特烈二世——他后来成为玛丽亚·特蕾西亚统治时期最主要的对手——随即入侵并夺取了富庶的哈布斯堡领地西里西亚，由此引发了奥地利王位继承战争。战争期间，尽管失去了西里西亚以及意大利的部分小块领土，玛丽亚·特蕾西亚仍成功维护了她对哈布斯堡大部分领地的统治权。后来，她又在七年战争中试图收复西里西亚，但未能成功。</Text>
+            <Text>1740年10月，其父皇帝查理六世去世后，玛丽亚·特蕾西亚开始了长达40年的统治。查理六世曾通过1713年的《国事诏书》为她的继承权铺平道路，并在在位期间不断巩固这一安排。然而在他去世后，萨克森、普鲁士、巴伐利亚与法国均背弃了它们在查理六世生前承认过的诏书。普鲁士国王腓特烈二世——他后来成为玛丽亚·特蕾西亚统治时期最主要的对手——随即入侵并夺取了富庶的哈布斯堡领地西里西亚，由此引发了奥地利王位继承战争。战争期间，尽管失去了西里西亚以及意大利的部分小块领土，玛丽亚·特蕾西亚仍成功维护了她对哈布斯堡大部分领地的统治权。后来，她又在七年战争中试图收复西里西亚，但未能成功。</Text>
         </Replace>
         <Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MER_MARIA_THERESA_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
             <Text>玛丽亚·特蕾西亚与其夫君神圣罗马皇帝弗朗茨一世育有十一个女儿和五个儿子，其中包括法国王后、那不勒斯与西西里王后、帕尔马公爵夫人，以及两位神圣罗马皇帝约瑟夫二世与利奥波德二世。在他们的十六名子女中，有十人活至成年。尽管人们曾预期她会将权力让渡给弗朗茨，随后又让渡给约瑟夫——二人名义上都是她在奥地利与波希米亚的共同统治者——但玛丽亚·特蕾西亚始终是一位在大臣辅佐下亲自执政的绝对君主。她批评并反对过约瑟夫的许多政策。玛丽亚·特蕾西亚深知公众形象的重要性，也懂得如何同时赢得臣民的尊敬与爱戴。</Text>
